@@ -7,6 +7,7 @@
   // importing routes
   import Home from './routes/Home.svelte';
   import Game from './routes/Game.svelte'
+  import Learn from './routes/Learn.svelte'
 </script>
 
   <Router>
@@ -17,5 +18,8 @@
     </Route>
     <Route path="/game/*">
         <Game />
+    </Route>
+    <Route path="/learn/*">
+      <Learn />
     </Route>
   </Router>
