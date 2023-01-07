@@ -1,101 +1,37 @@
 <script>
 
 </script>
+<div class="text-3xl text-dev-dark-green dark:text-dev-light-color font-semibold text-center translate-y-28">Choose an age to learn about!!</div>
+<div class="L">
+<a target="_blank" href="https://en.wikipedia.org/wiki/Stone_Age" class="A1 c flex items-center justify-center text-2xl font-semibold cursor-pointer hover:scale-105 hover:shadow-md transition-all text-dev-dark-green">Stone Age</a>
+<a target="_blank" href="https://en.wikipedia.org/wiki/Middle_Ages" class="A2 c flex items-center justify-center text-2xl font-semibold cursor-pointer hover:scale-105 hover:shadow-md transition-all text-dev-dark-green">Middle Ages</a>
+<a target="_blank" href="https://en.wikipedia.org/wiki/Islamic_Golden_Age" class="A3 c flex items-center justify-center text-2xl font-semibold cursor-pointer hover:scale-105 hover:shadow-md transition-all text-dev-dark-green text-center">Islamic Golden Age</a>
+<a target="_blank" href="https://en.wikipedia.org/wiki/Ottoman_Empire" class="A4 c flex items-center justify-center text-2xl font-semibold cursor-pointer hover:scale-105 hover:shadow-md transition-all text-dev-dark-green">Ottoman era</a>
+<a target="_blank" href="https://en.wikipedia.org/wiki/World_war#:~:text=Conventionally%2C%20the%20term%20is%20reserved,War%20and%20the%20Cold%20War." class="A5 c flex items-center justify-center text-2xl font-semibold cursor-pointer hover:scale-105 hover:shadow-md transition-all text-dev-dark-green">World Wars era</a>
+<a target="_blank" href="https://en.wikipedia.org/wiki/Modern_era" class="A6 c flex items-center justify-center text-2xl font-semibold cursor-pointer hover:scale-105 hover:shadow-md transition-all text-dev-dark-green">Modern era</a>
 
-<div class="AgesList">
-<div class="AgeCycle A1 hover:scale-105 z-20"></div>
-<div class="L L1"></div>
-<div class="AgeCycle A2 hover:scale-105 z-20"></div>
-<div class="L L2"></div>
-<div class="AgeCycle A3 hover:scale-105 z-20"></div>
-<div class="L L3"></div>
-<div class="AgeCycle A4 hover:scale-105 z-20"></div>
-<div class="L L4"></div>
-<div class="AgeCycle A5 hover:scale-105 z-20"></div>
-<div class="L L5"></div>
-<div class="AgeCycle A6 hover:scale-105 z-20"></div>
 </div>
 
+
 <style>
-.AgesList{
-    
-    position: absolute;
-    left: 20%;
-    top:30%;
-    height: 60%;
-    width: 60%;
-}
-.AgeCycle{
-    background-color: white;
-    border-color: #395144;
-    border-width: 5px;
-    position: absolute;
-    height: 120px;
-    width: 120px;
-    border-radius: 50%;
-    left:10%;
-}   
-.AgeCycle:hover{
+    .L{
+        position: absolute;
+       
+       display: grid;
+        
+        left: 25%;
+        top: 40%;
+        grid-template-columns: auto auto auto;
+        
+    }
 
-}
-.A1{
-    left:0;
-    top:20%
-}
-.A2{
-    left:20%;
-    top:35%
-}
-.A3{
-    left:40%;
-    top:15%
-}
-.A4{
-    left:55%;
-    top:45%
-}
-.A5{
-    left:75%;
-    top:28%
-}
-.A6{
-    left:90%;
-    top:65%
-}
-.L{
-    position: absolute;
-    width: 5px;
-    background-color: #395144;
-}
-
-.L1{
-    height:60px;
-    transform: rotate(110deg);
-    top: 35%;
-    left:17%;
-}
-.L3{
-    height:60px;
-    transform: rotate(130deg);
-    top: 35%;
-    left:56%;
-}
-.L2{
-    height:67px;
-    transform: rotate(65deg);
-    top: 33%;
-    left:37%;
-}
-.L4{
-    height:66px;
-    transform: rotate(60deg);
-    top: 45%;
-    left:72.5%;
-}
-.L5{
-    height:78px;
-    transform: rotate(135deg);
-    top: 50%;
-    left:90%;
-}
+    .c{
+        margin: 5px;
+        height: 124px;
+        width: 211px;
+        background-color: white;
+        border-color:  #5D3C02;
+        border-width: 2px;
+        border-radius: 10px;
+    }
 </style>

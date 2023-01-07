@@ -56,7 +56,11 @@
 
       </div>
       <div class="-ml-64">
-        <img src="src/assets/Chronos.svg" alt="">
+        {#if $mode == "dark"}
+        <img src="src/assets/Chronos_light.svg" class="scale-75" alt="">
+        {:else}
+        <img src="src/assets/Chronos.svg" class="scale-110" alt="">
+        {/if}
       </div>
       <ul
       class="hidden items-center justify-center gap-10 text-lg capitalize text-dev-dark-green dark:text-dev-light-color lg:flex font-bold"

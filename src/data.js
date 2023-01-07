@@ -66,7 +66,7 @@ const data = [
             {
                 id: 7,
                 content: "Football",
-                hint1: "Contries",
+                hint1: "Countries",
                 hint2: "",
                 correct_answer: "World Cup",
                 answers: "",
@@ -154,7 +154,7 @@ const data = [
                 content: "War",
                 hint1: "Jewish",
                 hint2: "extremenation camp",
-                correct_answer: "Holocaus",
+                correct_answer: "Holocaust",
                 answers: "",
                 type: "1",
             },

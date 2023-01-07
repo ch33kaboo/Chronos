@@ -2,7 +2,7 @@
     import { Link } from 'svelte-navigator';
 </script>
 
-<main class="my-10 w-full gap-5 font-semibold lg:grid lg:grid-cols-5 pt-10">
+<main class="my-10 w-full gap-5 font-semibold lg:grid lg:grid-cols-5 pt-20">
     <div
         class="col-span-3 flex w-full items-center text-5xl text-gray-900 dark:text-gray-100 sm:text-7xl md:text-8xl lg:justify-start lg:pl-16 lg:text-7xl xl:pl-24 xl:text-8xl"
     >
@@ -14,7 +14,7 @@
                 Welcome to
                 </div>
                 <div
-                    class="inline bg-gradient-to-r text-[#4E6C50] py-2 dark:from-cyan-500 dark:to-green-400"
+                    class="inline bg-gradient-to-r text-[#4E6C50] py-2 dark:text-cyan-500"
                 >
                  Chronos 
                 </div>

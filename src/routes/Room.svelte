@@ -1,4 +1,18 @@
 <script>
+
+import {ConfettiCannon} from 'svelte-canvas-confetti';
+    import {tick} from 'svelte';
+
+
+    const makeConfettiCannon = async () => {
+		confettiCannon = false;
+		await tick();
+		confettiCannon = true;
+	}
+
+  let confettiCannon = false;
+
+
     import { score } from "../stores/scoreStore";
     import data from "../data"
     let num = Math.floor(Math.random() * 6);
@@ -12,6 +26,7 @@
             if (e.target.value.toLowerCase() == qs[qsIndex].correct_answer.toLowerCase()) {
                 myScore++
                 qsIndex++
+                makeConfettiCannon()
                 e.target.value = ""
             } else {
                 e.target.value = ""
@@ -73,3 +88,12 @@
 
     </div>
 </main>
+
+{#if confettiCannon}
+	<ConfettiCannon
+		origin={[window.innerWidth / 2, window.innerHeight]}
+		angle={-90}
+		spread={35}
+		force={35}
+	/>
+{/if}

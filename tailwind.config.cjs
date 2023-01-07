@@ -5,8 +5,8 @@ const config = {
     theme: {
         extend: {
             animation: {
-                "spin-left": "rotleft 5s linear infinite",
-                "spin-right": "rotright 5s linear infinite",
+                "spin-left": "rotleft 20s linear infinite",
+                "spin-right": "rotright 20s linear infinite",
             },
             keyframes: {
                 rotleft: {
