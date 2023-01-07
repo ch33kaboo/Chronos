@@ -22,7 +22,7 @@ const config = {
                 "dev-dark-green": "#395144",
                 "dev-green": "#4E6C50",
                 "dev-brown": "#AA8B56",
-                "dev-light-color": "#F0EBCE",
+                "dev-light-color": "#F9F5E2",
             },
             fontFamily: {
                 devfest: "'Carter One', cursive;",

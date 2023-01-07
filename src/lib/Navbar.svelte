@@ -19,7 +19,7 @@
 </script>
 
 <main>
-    <div class="h-24 relative bg-dev-light-color dark:bg-dev-dark-green bg-opacity-50 dark:bg-opacity-50 flex flex-row items-center justify-around font-devfest">
+    <div class="h-24 relative bg-dev-light-color dark:bg-dev-dark-green bg-opacity-50 dark:bg-opacity-50 flex flex-row items-center justify-around">
       <div class="rounded-l-2xl bg-dev-dark-green py-1 pr-1 pl-2 dark:bg-dev-light-color absolute right-0">
         <label class="swap-rotate swap">
           <!-- this hidden checkbox controls the state -->
@@ -55,12 +55,11 @@
       </label>
 
       </div>
-      <div class="flex flex-row -ml-28 justify-center items-center gap-4">
-        <img src="src/assets/ga3.svg" alt="">
-        <div class="dark:text-dev-light-color text-dev-dark-green">Chronos</div>
+      <div class="-ml-64">
+        <img src="src/assets/Chronos.svg" alt="">
       </div>
       <ul
-      class="hidden items-center justify-center gap-10 text-lg capitalize text-dev-dark-green dark:text-dev-light-color lg:flex font-thin"
+      class="hidden items-center justify-center gap-10 text-lg capitalize text-dev-dark-green dark:text-dev-light-color lg:flex font-bold"
   >
       <li
           class="group relative cursor-pointer px-2 opacity-60 hover:opacity-100 z-20 {$location.pathname ==
