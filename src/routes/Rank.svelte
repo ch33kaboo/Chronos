@@ -1,3 +1,8 @@
+<script>
+  import { score } from "../stores/scoreStore";
+  let i = 1
+</script>
+
 <main class="flex items-center justify-center p-5 w-full h-full">
     <div class="overflow-x-auto">
         <table class="table w-full">
@@ -6,24 +11,21 @@
             <tr>
               <th></th>
               <th>Name</th>
+              <th>score</th>
             </tr>
           </thead>
           <tbody>
-            <!-- row 1 -->
+            {#each $score as one}
             <tr>
-              <th>1</th>
-              <td>Cy Ganderton</td>
+              <th>{$score.indexOf(one) + 1}</th>
+              <td>{one.name}</td>
+              <td>{one.score}</td>
             </tr>
-            <!-- row 2 -->
-            <tr class="active">
-              <th>2</th>
-              <td>Hart Hagerty</td>
-            </tr>
-            <!-- row 3 -->
-            <tr>
-              <th>3</th>
-              <td>Brice Swyre</td>
-            </tr>
+            {:else}
+            <th></th>
+            <td>leaderboard</td>
+            <td>empty</td>
+            {/each}
           </tbody>
         </table>
       </div>

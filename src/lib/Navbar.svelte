@@ -60,7 +60,7 @@
         <div class="dark:text-dev-light-color text-dev-dark-green">Chronos</div>
       </div>
       <ul
-      class="hidden items-center justify-center gap-10 text-lg font-semibold capitalize text-dev-dark-green dark:text-dev-light-color lg:flex"
+      class="hidden items-center justify-center gap-10 text-lg capitalize text-dev-dark-green dark:text-dev-light-color lg:flex font-thin"
   >
       <li
           class="group relative cursor-pointer px-2 opacity-60 hover:opacity-100 z-20 {$location.pathname ==

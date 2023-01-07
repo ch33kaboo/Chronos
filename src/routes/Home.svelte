@@ -18,10 +18,7 @@
                 >
                     Chronos ?
                 </div>
-                <div class="text-2xl font-devfest font-thin">
-                    "tempus neminem manet"
-                </div>
-                <div class="text-2xl mt-5 font-devfest font-thin">
+                <div class="text-2xl mt-8 font-devfest font-thin">
                     Chronos is a learning  platform which adopts the idea of Educational gaming. 
 This project offers you the opportunity to test your historical knowledge and develop it.
                 </div>
