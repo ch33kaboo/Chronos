@@ -1,7 +1,9 @@
 # Chronos
-
-<img src="https://i.postimg.cc/L64wyQvP/chronos.png" width="100%" />
-
+<a href="https://www.youtube.com/watch?v=KnjyJFwtyvY">
+  <img src="https://i.postimg.cc/L64wyQvP/chronos.png" width="100%" />
+</a>
+  
+[Demo 🚀](https://www.youtube.com/watch?v=KnjyJFwtyvY)
 
 ## What is this about?
 This was the project that I made along with other students for the *DevFest Hackathon* organised by [**GDG-SBA**](https://www.instagram.com/gdg.sba/), on January 6th 2023.
