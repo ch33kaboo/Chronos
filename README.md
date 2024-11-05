@@ -11,4 +11,4 @@ This was the project that I made along with other students for the *DevFest Hack
 
 Our project was named **Chronos**, it is a learning platform about history and also it has a fun history Quiz game called "**Griffin**" that you can play. clone this repo, install the dependencies and run your dev server to try the game.
 _____
-Well, I know this isn't responsive because I didn't care about small screen sizes for the lack of time we had during the event, and since I was the only one coding and implementing the logic of this app (the others took care of UI/UX design, content of the app and other stuff) it was to much for me.
+Well, I know this isn't responsive because I didn't care about small screen sizes for the lack of time we had during the event, and since I was the only one coding and implementing the logic of this app (the others took care of UI/UX design, content of the app and other stuff) it was too much for me.
